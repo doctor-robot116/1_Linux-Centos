@@ -1,0 +1,12 @@
+//Упражнение 4
+
+mkdir abc
+cd abc
+touch file.txt
+cd ..
+mkdir xyz
+link ./abc/file.txt ./xyz/_some_file.txt
+
+find /home/doctor_robot16/abc/file.txt -inum 16812610
+
+find /home/doctor_robot16/abc/file.txt -inum 16812610 -exec rm {} \; >> ex4.txt

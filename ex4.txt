@@ -1,0 +1,1 @@
+/home/doctor_robot16/abc/file.txt
