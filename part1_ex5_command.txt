@@ -1,14 +1,14 @@
 //Упражнение 5
 
 touch ex5.txt //Создайте файл ex5.txt
-ls -la
+ls -la | tee -a ex5_log.txt
 
 chmod ugo-x ex5.txt //Удалить права на выполнение для всех
-ls -la
+ls -la | tee -a ex5_log.txt
 
 chmod uo+wx ex5.txt //Предоставить все права владельцу и другим (т.е. всем, но не группе)
-ls -la
+ls -la | tee -a ex5_log.txt
 
 chmod g+x ex5.txt //Сделать групповые права равными правам пользователя.
-
+ls -la | tee -a ex5_log.txt
 
