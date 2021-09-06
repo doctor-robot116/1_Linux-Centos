@@ -1,5 +1,10 @@
 #!/bin/bash
 #Упражнение 2
+$ system()
+> { echo $SHELL; }
+$ system
+/bin/bash
+
 echo "Directory:"
 pwd
 echo "Login:"
